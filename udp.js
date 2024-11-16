@@ -1,7 +1,7 @@
 const dgram = require('dgram');
 
 if (process.argv.length <= 4) {
-    console.log("Usage: node udp-skycat <target_ip> <target_port> <duration_seconds>");
+    console.log("Usage: node udp <target_ip> <target_port> <duration_seconds>");
     process.exit(-1);
 }
 
